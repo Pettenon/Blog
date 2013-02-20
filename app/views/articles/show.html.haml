@@ -1,0 +1,16 @@
+%h1 Engine Info
+
+%table{:style => "width:100%"}
+  %tr
+    %th{:style => "width:5%"}Engine:
+    %td{:style => "padding:17px; text-align:left"}= @article.name
+  %tr
+    %th{:style => "width:5%;"}Content:
+    %td{:style => "padding:17px; text-align:left"}= @article.content
+  %tr
+    %th{:style => "width:5%;"}Tags:
+    %td{:style => "padding:17px; text-align:left"}= @article.tag_list
+  
+%br
+= link_to 'Edit', edit_article_path(@article)
+= link_to 'Back', articles_path
