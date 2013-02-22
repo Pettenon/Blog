@@ -27,6 +27,9 @@ gem 'haml'
 gem 'formtastic'
 
 gem 'acts-as-taggable-on'
+
+gem 'rabl'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
