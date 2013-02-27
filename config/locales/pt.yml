@@ -1,0 +1,11 @@
+pt:
+  articles:
+    index:
+      title: "Lista de Artigos"
+      description: "Bem-vindo ao Blog de Engines"
+  activerecord:
+    attributes:
+      article:
+        engine_name: "Motor Gráfico"
+        content: "Conteúdo"
+        tags: "Tags Relacionadas"
